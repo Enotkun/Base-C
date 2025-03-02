@@ -1,18 +1,23 @@
-int func3() {
+int func3()
+{
     return 0;
 }
 
-int func2() {
+int func2()
+{
     func3();
     return 0;
 }
 
-int func1() {
+int func1()
+{
+    func2();
     func2();
     return 0;
 }
 
-int main() {
+int main()
+{
     func1();
     return 0;
 }

@@ -3,7 +3,7 @@
 int func_three();
 int func_four();
 
-int main() 
+int main()
 {
     puts("Welcome to variables!");
 
@@ -11,7 +11,7 @@ int main()
     int v1 = 1;
     int v2 = 2;
 
-    printf("v1 = %i\n", v1);
+    printf("v1 = %i\n", v1); 
     printf("v2 = %i\n", v2);
 
     /* Объялвение и инициализация с помощью выражений */
@@ -24,8 +24,10 @@ int main()
     /* Потенциально могут хранить мусор */
     // int v5, v6, v7;
 
-    int a = 1000, b = 2, c = 3;
+    int a = 1, b = 2, c = 3;
+
     printf("Welcome to variables!\n");
+
     printf("a: %i\n", a);
     printf("b: %i\n", b);
     printf("c: %i\n", c);

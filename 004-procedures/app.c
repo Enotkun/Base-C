@@ -1,4 +1,4 @@
-void proc1()
+void proc3()
 {
     /* instructions */
     return;
@@ -12,7 +12,7 @@ void proc2()
     /* unreachable code */
 }
 
-void proc3()
+void proc1()
 {
     /* instructions */
     return;
@@ -21,17 +21,19 @@ void proc3()
 
 void logger()
 {
-    /* puts("25.11.2024 Message") */
+    /* puts("21.02.2025 Message") */
     return;
     /* unreachable code */
 }
 
-void init() {
+void init()
+{
     /* instructions */
     return;
 }
 
-void close() {
+void close()
+{
     /* instructions */
     return;
 }
@@ -40,7 +42,7 @@ int main()
 {
     init();
     close();
+
     return 0;
     /* unreachable code */
-    logger();
 }

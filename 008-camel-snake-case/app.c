@@ -10,7 +10,7 @@ int func_three()
 }
 
 
-//underscore
+//underscore - символ нижнего подчеркивания
 int func_two()
 {
     return func_three();

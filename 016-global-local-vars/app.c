@@ -1,24 +1,26 @@
 #include <stdio.h>
 
-int global = 1;
+int global = 5000;
 
 int function(void)
-{
-    puts("function: local");
-    
+{   
+    puts("function: function");
+
     int local = 100;
 
+    printf("global: %i\n", global);
     printf("local: %i\n", local);
 
     return 0;
 }
 
 int main(void)
-{
+{   
     puts("function: main");
 
-    int local = 150;
+    int local = 200;
 
+    printf("global: %i\n", global);
     printf("local: %i\n", local);
 
     function();
